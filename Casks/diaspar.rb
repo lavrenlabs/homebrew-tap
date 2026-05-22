@@ -4,12 +4,12 @@ cask "diaspar" do
 
   on_macos do
     on_intel do
-      sha256 "395bb35be212ece5325b33cbb58c074a130615e0668acde1b52296eacd21e75c"
+      sha256 "9a2e9d4dbaf76988e4facd9f79d7c836add16c42bec8cc31c05ee6943db32e80"
       url "https://github.com/lavrenlabs/diaspar-releases/releases/download/v#{version}/diaspar_darwin_amd64.tar.gz",
         verified: "github.com/lavrenlabs/diaspar-releases/"
     end
     on_arm do
-      sha256 "f0470bf7d4de4d5a9b9b17b72a9b00a1e91ee36b56f906d99cf60c942a7bee74"
+      sha256 "a620baaaa75afd5cfffaaf486f341788e37aeee022ae260943bf82c38a46e600"
       url "https://github.com/lavrenlabs/diaspar-releases/releases/download/v#{version}/diaspar_darwin_arm64.tar.gz",
         verified: "github.com/lavrenlabs/diaspar-releases/"
     end
@@ -17,12 +17,12 @@ cask "diaspar" do
 
   on_linux do
     on_intel do
-      sha256 "28e35ad10241661ef9aa832053d2820f503dffdcd67daca8f74fd03b44cc136e"
+      sha256 "38f96ae020b029a155a6f1b853cca3d6a94d93e97a0f2998e8707a9cc190f725"
       url "https://github.com/lavrenlabs/diaspar-releases/releases/download/v#{version}/diaspar_linux_amd64.tar.gz",
         verified: "github.com/lavrenlabs/diaspar-releases/"
     end
     on_arm do
-      sha256 "3b18127c810b11c388f077efeaec5f54916a4757f2b684f29504d926d6d36fe1"
+      sha256 "dd2761e77eb89dbcea58abdd3c9a748efb3be16b5151eeaf757d886a35fdb25d"
       url "https://github.com/lavrenlabs/diaspar-releases/releases/download/v#{version}/diaspar_linux_arm64.tar.gz",
         verified: "github.com/lavrenlabs/diaspar-releases/"
     end
